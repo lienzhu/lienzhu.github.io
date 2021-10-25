@@ -1,0 +1,117 @@
+
+
+.footer {
+    /* width: 100%; */
+    height: 5rem;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    background-color: var(white);
+    padding: 0 10%;
+    bottom: 0px;
+    z-index: 10;
+    /* position:absolute; */
+    /* position:sticky; */
+    text-decoration:none;
+    /* background-color: rebeccapurple; */
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+  
+  }
+
+  .overview {
+    text-align: left;
+    padding: 0;
+    padding-bottom: 2.5%;
+    width: 100%;
+    font-size: 1.2rem;
+    color: var(--black-light);
+    font-weight:normal;
+    display:inline-block;
+    /* background-color: royalblue; */
+
+    
+
+  }
+
+  .nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 5%;
+      text-decoration:none;
+      text-decoration:none;
+      
+  }
+
+  
+  
+  .logo {
+    font-size: 1.5rem;
+    color: var(--black-light);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    letter-spacing:0.1em;
+    
+  }
+  
+  .ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline; 
+    padding-left: 5%;  
+    /* letter-spacing: 50px; */
+    /* font-size: 125%; */
+    text-decoration:none;
+    
+    
+     
+  }
+
+  .listSpan{
+    /* left: 10px; */
+    padding-left: 10%;
+    text-decoration:none;
+  }
+  
+  .footer li {
+    
+    display: inline;
+    list-style: none;
+    text-decoration:none;
+    
+    
+  }
+  
+  .footer a {
+    /* Controls the links for LinkedIn and Email */
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    text-decoration:none;
+    
+  }
+  
+  .footer a:hover,
+  .footer a:active,
+  .footer a.active
+  .footer a:visited 
+  .footer a:focus{
+    /* color: var(--accent-dark); */
+    text-decoration:none;
+
+  }
+  
+  /* .badge {
+    background-color: #cc2062;
+    color: white;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: 0.5rem;
+    
+  } */

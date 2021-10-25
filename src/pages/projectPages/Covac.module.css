@@ -1,0 +1,25 @@
+.container{
+    
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    background-color: skyblue;
+}
+
+.context{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    
+}
+
+.contextItem{
+    /* padding-right: 1.5rem; */
+    display: block;
+    width: 100%;
+    
+
+}

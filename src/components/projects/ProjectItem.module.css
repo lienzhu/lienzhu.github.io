@@ -1,0 +1,58 @@
+.itemContainer{
+    flex:1 0 50%;
+    /* width: 25%; */
+    overflow: hidden;
+    
+    margin-left: -10px;
+	margin-top: -10px;
+}
+
+.itemList{
+    width: 90%;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: left;
+    box-sizing: border-box;
+    margin-left: 10px;
+	margin-top: 20px;
+    margin-bottom: 50px;
+
+    /* padding:10px; */
+    /* https://css-tricks.com/arranging-elements-top-bottom-instead-left-right-float/ */
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+
+    /* adjusts the size of the project thumbnail on the homepage */
+    /* height: 32.5rem;
+    width: 35rem; */
+}
+
+.image{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.projectTitle{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+
+.link{
+    text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color:black; 
+}
+
+
+@media only screen and (max-width: 600px) {
+  .itemContainer {
+    background-color: lightblue;
+    width: 100%;
+    flex:100%
+  }
+}
